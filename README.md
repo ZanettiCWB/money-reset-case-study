@@ -3,7 +3,7 @@
 > A personal finance application built as a single, self-contained HTML file.
 > No backend, no build step, no framework, no dependencies.
 
-**[Live demo →](#)** · Source code is private (commercial product)
+**[The product →](https://the-moneyreset.netlify.app/)** · Source code is private (commercial product)
 
 ---
 
@@ -213,11 +213,13 @@ HTML, CSS, and JavaScript. Web Crypto API for the access layer. That's the compl
 
 ---
 
-## Related repositories
+## Extracted components
 
-- **[Build hardening tool](#)** — migrates a build to the encrypted access scheme, with round-trip verification
-- **[Schema-versioned localStorage wrapper](#)** — the persistence layer, extracted and generalized
-- **[Cross-engine bugs — minimal reproductions](#)** — `display: contents` in flex layout, and non-ISO date string parsing
+Pieces of this project that are general enough to stand alone. Being cleaned up for release:
+
+- **Build hardening tool** — migrates a build to the encrypted access scheme, re-encrypts the payload under a fresh code, and round-trip verifies before emitting the file
+- **Schema-versioned localStorage wrapper** — the persistence layer, generalized
+- **Cross-engine bug reproductions** — `display: contents` in flex layout, and non-ISO date string parsing
 
 ---
 
@@ -227,4 +229,4 @@ Leonardo Zanetti — mechanical engineer (CREA), working at the intersection of 
 
 The through-line is the same in both: taking a process someone runs in a spreadsheet and turning it into something that holds its shape without them.
 
-**[LinkedIn](#)** · **[Email](#)**
+**[LinkedIn](https://www.linkedin.com/in/leonardo-camargo-zanetti-289585185)** · **[leoczanetti@gmail.com](mailto:leoczanetti@gmail.com)**
