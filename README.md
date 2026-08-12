@@ -3,7 +3,7 @@
 > A personal finance application built as a single, self-contained HTML file.
 > No backend, no build step, no framework, no dependencies.
 
-**[The product →](https://the-moneyreset.netlify.app/)** · Source code is private (commercial product)
+**[The product →](https://usemoneyreset.com/)** · Source code is private (commercial product)
 
 ---
 
